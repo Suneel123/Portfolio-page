@@ -1,0 +1,521 @@
+.parallaxSlide1 {
+    background-image: url("img/bg1.png");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.parallaxSlide2 {
+    background-image: url("img/slide1.jpg");
+    min-height: 1700px;
+    max-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxSlide3 {
+    background-image: url("img/slide2.jpg");
+    min-height: 1500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    position: relative;
+}
+
+.container-padding {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 7% 15% 7% 15%;
+}
+
+.navfont {
+    font-family: 'Pacifico', cursive;
+    
+}
+
+li {
+    margin: 0 10px;
+    padding-bottom: 4px;
+}
+
+.tags {
+    font-size: 425%;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+p {
+    font-size: 175%;
+    font-family: 'Cormorant', serif;
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.typedjsFont {
+    padding-top: 5%;
+    font-family: 'Tangerine', cursive;
+    font-size: 350%;
+}
+
+/* --- Typed.js --- */
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  }
+  @keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+        }
+  @-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@media screen and (max-width: 600px) {
+  .typed-js-hide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+/*----------------------------------------------------------*/
+
+
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0;
+}
+
+.iconColor {
+    color: chocolate;
+}
+
+.portfolioText {
+    font-size: 142%;
+    font-family: 'Cormorant', serif;
+}
+
+.portfolioSmallText {
+    font-size: 125%;
+    font-family: 'Cormorant', serif;
+}
+
+.portfolioXsText {
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+}
+
+.portfolioHead {
+    font-size: 180%;
+    font-family: 'Cormorant', serif;
+}
+
+.portfolioText a:link {
+    text-decoration: none; 
+}
+
+
+.bargraph1 {
+    height: 143px;
+    background-color: teal;
+    color: white;
+    padding-top: 50px;
+    font-size: 130%;
+}
+
+.bargraph2 {
+    height: 200px;
+    background-color: tomato;
+    color: white;
+    padding-top: 50px;
+    font-size: 130%;
+}
+
+.bargraph3 {
+    height: 160px;
+    background-color: gold;
+    color: white;
+    padding-top: 50px;
+    font-size: 130%;
+}
+
+.bargraph4 {
+    height: 180px;
+    background-color: hotpink;
+    color: white;
+    padding-top: 50px;
+    font-size: 130%;
+}
+
+.bargraph5 {
+    height: 169px;
+    background-color: turquoise;
+    color: white;
+    padding-top: 50px;
+    font-size: 130%;
+}
+
+
+/*-----------button------------------*/
+.btn-cont {
+  text-align: center;
+  padding-bottom: 3%;
+}
+.btn-cont .btn {
+  position: relative;
+  padding: 5% 14%;
+  border: 1px solid chocolate;
+  color: chocolate;
+  text-decoration: none;
+  font-size: 150%;
+  font-family: 'Cormorant', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+}
+.btn-cont .btn:hover {
+  border: none;
+}
+.btn-cont .btn:hover .line-1 {
+  -webkit-animation: move1 1500ms infinite ease;
+          animation: move1 1500ms infinite ease;
+}
+.btn-cont .btn:hover .line-2 {
+  -webkit-animation: move2 1500ms infinite ease;
+          animation: move2 1500ms infinite ease;
+}
+.btn-cont .btn:hover .line-3 {
+  -webkit-animation: move3 1500ms infinite ease;
+          animation: move3 1500ms infinite ease;
+}
+.btn-cont .btn:hover .line-4 {
+  -webkit-animation: move4 1500ms infinite ease;
+          animation: move4 1500ms infinite ease;
+}
+.btn-cont .line-1 {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  background-color: chocolate;
+  left: 0;
+  bottom: 0;
+}
+.btn-cont .line-2 {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  background-color: chocolate;
+  left: 0;
+  top: 0;
+}
+.btn-cont .line-3 {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  background-color: chocolate;
+  right: 0;
+  top: 0;
+}
+.btn-cont .line-4 {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  background-color: chocolate;
+  right: 0;
+  bottom: 0;
+}
+
+@-webkit-keyframes move1 {
+  0% {
+    height: 100%;
+    bottom: 0;
+  }
+  54% {
+    height: 0;
+    bottom: 100%;
+  }
+  55% {
+    height: 0;
+    bottom: 0;
+  }
+  100% {
+    height: 100%;
+    bottom: 0;
+  }
+}
+
+@keyframes move1 {
+  0% {
+    height: 100%;
+    bottom: 0;
+  }
+  54% {
+    height: 0;
+    bottom: 100%;
+  }
+  55% {
+    height: 0;
+    bottom: 0;
+  }
+  100% {
+    height: 100%;
+    bottom: 0;
+  }
+}
+@-webkit-keyframes move2 {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes move2 {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@-webkit-keyframes move3 {
+  0% {
+    height: 100%;
+    top: 0;
+  }
+  54% {
+    height: 0;
+    top: 100%;
+  }
+  55% {
+    height: 0;
+    top: 0;
+  }
+  100% {
+    height: 100%;
+    top: 0;
+  }
+}
+@keyframes move3 {
+  0% {
+    height: 100%;
+    top: 0;
+  }
+  54% {
+    height: 0;
+    top: 100%;
+  }
+  55% {
+    height: 0;
+    top: 0;
+  }
+  100% {
+    height: 100%;
+    top: 0;
+  }
+}
+@-webkit-keyframes move4 {
+  0% {
+    width: 0;
+    right: 0;
+  }
+  55% {
+    width: 100%;
+    right: 0;
+  }
+  100% {
+    width: 0;
+    right: 100%;
+  }
+}
+@keyframes move4 {
+  0% {
+    width: 0;
+    right: 0;
+  }
+  55% {
+    width: 100%;
+    right: 0;
+  }
+  100% {
+    width: 0;
+    right: 100%;
+  }
+}
+
+/*--------------------------------------------------*/
+
+.thumbBorder{
+    border: 3px solid turquoise;
+}
+
+.thumbText {
+    font-size: 118%;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+}
+
+.thumbText a:link {
+    text-decoration: none;
+}
+
+.thumbnail {
+    transition: box-shadow 0.5s;
+}
+
+.thumbnail:hover {
+    box-shadow: 10px 0px 45px rgba(0,0,0,0.2);
+}
+
+/*----------------------fancy thumbnail----------*/
+.fancy-border{
+  display:inline-block;
+  position:relative;
+  padding:0px 2px;
+  border:2px solid turquoise;
+  color:turquoise;
+  margin:5px auto;
+  transition: color 0.4s;
+}
+.fancy-border:after{
+  content:" ";
+  border:2px solid rgba(0,0,0,0);
+  display:inline-block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  transition:all 0.4s;
+}
+.fancy-border:hover{
+  color:#eee
+}
+.fancy-border:hover:after{  
+  border:2px solid turquoise;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px); 
+}
+
+/*------------------------------------------------*/
+
+.footerContainer {
+    width: 40%;
+    height: 100%;
+    margin-top: 1%;
+}
+
+.circle-icon {
+    color: white;
+    font-size: 130%;
+    width: 100%;
+    max-width: 95%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300%;
+    vertical-align: middle;
+    padding: 2%;
+}
+
+.fa-github-alt {
+    background: #333;
+}
+
+.fa-google-plus {
+    background: #dd4b39;
+}
+
+.fa-twitter {
+    background: #1da1f2;
+}
+
+.fa-linkedin {
+    background: #0077b5;
+}
+
+.fa-stack-overflow {
+    background: #f48024;
+}
+
+.fa-facebook {
+    background: #3b5998;
+}
+
+.fa-heart {
+    color: tomato;
+}
+
+.fpar {
+    text-align: center;
+    font-size: 130%;
+    font-family: serif;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
